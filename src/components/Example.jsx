@@ -3,6 +3,7 @@ import {
     Navbar,
     MobileNav,
     Typography,
+    Button,
     IconButton,
 } from "@material-tailwind/react";
 
@@ -14,15 +15,15 @@ export default function Example() {
     }, []);
 
     const navList = (
-        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+        <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 text-black">
             <Typography
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-normal "
             >
                 <a href="#" className="flex items-center">
-                    Home
+                    Serives
                 </a>
             </Typography>
             <Typography
@@ -32,7 +33,7 @@ export default function Example() {
                 className="p-1 font-normal"
             >
                 <a href="#" className="flex items-center">
-                    Services
+                    Our Works
                 </a>
             </Typography>
             <Typography
@@ -64,7 +65,7 @@ export default function Example() {
                 <Typography
                     as="a"
                     href="#"
-                    className="mr-4 cursor-pointer py-1.5 font-medium text-xl md:text-2xl"
+                    className="mr-4 cursor-pointer py-1.5 font-medium text-black text-2xl lg:text-3xl"
                 >
                     Kuli
                 </Typography>
@@ -78,8 +79,8 @@ export default function Example() {
                     {openNav ? (
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            className="h-6 w-6"
+                            fill=""
+                            className="h-6 w-6 text-black -mt-3 -ml-2"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
                             strokeWidth={2}
@@ -93,7 +94,7 @@ export default function Example() {
                     ) : (
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6"
+                            className="h-6 w-6 -pt-5 text-black -mt-3 -ml-2"
                             fill="none"
                             stroke="currentColor"
                             strokeWidth={2}
