@@ -79,7 +79,7 @@ export default function Example() {
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             fill=""
-                            className="h-6 w-6 text-black -mt-3 -ml-2"
+                            className="h-6 w-6 text-black -mt-1 -ml-2"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
                             strokeWidth={2}
@@ -93,7 +93,7 @@ export default function Example() {
                     ) : (
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 -pt-5 text-black -mt-3 -ml-2"
+                            className="h-6 w-6 -pt-5 text-black -mt-1 -ml-2"
                             fill="none"
                             stroke="currentColor"
                             strokeWidth={2}
